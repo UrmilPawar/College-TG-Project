@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upload Excel File</title>
+    
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <form id="filterForm" class="container mt-4" style="max-width: 70%;">
+
+        <div id="formContainer" >
+             <!-- Dynamic form fields will be injected here using JS -->
+        </div>
+
+        <!-- Combine logic (Choosing AND or OR ) -->
+        <div class="mb-3">
+            <label class="form-label d-block">Combine Filter Conditions Using:</label>
+            
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="combineLogic" id="combineAnd" value="AND">
+              <label class="form-check-label" for="combineAnd">AND (all conditions must match)</label>
+            </div>
+          
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="combineLogic" id="combineOr" value="OR" checked>
+              <label class="form-check-label" for="combineOr">OR (any condition can match)</label>
+            </div>
+        </div>
+      
+        <!-- Buttons -->
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 20%;">Submit</button>
+          <button type="reset" class="btn btn-secondary btn-lg" style="width: 20%;">Reset</button>
+        </div>
+        
+
+    </form>
+
+    <button type="button" class="btn btn-danger btn-lg" style="display: block; margin: 40px auto; width:20%" id="exit">Drop and Exit</button>
+
+    <div class="mt-2"></div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Local JS -->
+<script src="/js/filter.js"></script>
+
+</body>
+</html>

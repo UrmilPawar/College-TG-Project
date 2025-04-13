@@ -1,0 +1,148 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="EhpLI1I9l4UI6cBmGM_Z">
+    <mxGraphModel dx="1690" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="20" y="330" />
+              <mxPoint x="20" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-1" value="User/ Faculty" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-2" target="WM95Q4M55mBIbKIA9jsl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-2" target="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-2" value="Creation Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-3" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-1" target="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="190" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="270" />
+              <mxPoint x="170" y="390" />
+              <mxPoint x="310" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-4" value="Upload&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;formatted Excel&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-5" value="Sends Dept,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Initials&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-6" value="Database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-8" value="Creates database with&amp;nbsp;&lt;div&gt;sheets in workbooks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="230" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-9" value="Naming the Database&amp;nbsp;&lt;div&gt;uisng Dept + Initials&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="445" />
+              <mxPoint x="40" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1.039;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.85;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-10" target="WM95Q4M55mBIbKIA9jsl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-10" target="WM95Q4M55mBIbKIA9jsl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-10" value="Frontened" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-14" value="Sends&lt;br&gt;1. Column names&lt;div&gt;2. Names of Category column&lt;br&gt;3. Values of Category Column&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="330" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-18" value="Displays the table Culumns&amp;nbsp;&lt;div&gt;and Categories- to all user select them&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-19" value="User Selects Required&amp;nbsp;&lt;div&gt;Columns and Categories&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-21" target="WM95Q4M55mBIbKIA9jsl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.071;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="330" as="targetPoint" />
+            <mxPoint x="320" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="320" y="510" />
+              <mxPoint x="280" y="510" />
+              <mxPoint x="280" y="580" />
+              <mxPoint y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.686;exitY=0;exitDx=0;exitDy=0;entryX=0.686;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-21" target="WM95Q4M55mBIbKIA9jsl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-21" value="Filteration Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-24" value="Sends User Selected&amp;nbsp;&lt;div&gt;Columns and Categories&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-26" value="Requests Selected Culumns&amp;nbsp;&lt;div&gt;and Categories Data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-27" value="Sends the&lt;div&gt;Requested filtered&amp;nbsp;&lt;/div&gt;&lt;div&gt;data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.005;entryY=0.661;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-6" target="WM95Q4M55mBIbKIA9jsl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-30" value="Displays the required filtered data&amp;nbsp;&lt;div&gt;in Tabular Format&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WM95Q4M55mBIbKIA9jsl-31" target="WM95Q4M55mBIbKIA9jsl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-31" value="Deletion Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-32" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="279.96" as="sourcePoint" />
+            <mxPoint x="310" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="279.96" />
+              <mxPoint x="-30" y="669.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-33" value="Closes the app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="640" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-35" value="Delets the&amp;nbsp;&lt;div&gt;created Database&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-40" value="Sends the Uploaded and&amp;nbsp;&lt;div&gt;inserted data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="323" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WM95Q4M55mBIbKIA9jsl-42" value="Sends the filtered&amp;nbsp;&lt;div&gt;data back&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
